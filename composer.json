@@ -1,0 +1,17 @@
+{
+    "name": "stirredo/design_patterns",
+    "type": "project",
+    "authors": [
+        {
+            "name": "stirredo",
+            "email": "stirredo@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "DesignPatterns\\": "src/DesignPatterns"
+        }
+    }
+
+}
