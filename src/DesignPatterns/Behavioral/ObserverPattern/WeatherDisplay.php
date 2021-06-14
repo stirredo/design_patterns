@@ -16,7 +16,7 @@ class WeatherDisplay implements DisplayElement, Observer
         echo "The current pressure is: " . $this->weatherData->getPressure() . "\n";
     }
 
-    public function update(WeatherData $weatherData)
+    public function update(Subject $weatherData)
     {
         $this->weatherData = $weatherData;
         $this->display();
