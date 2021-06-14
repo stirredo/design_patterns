@@ -2,17 +2,17 @@
 
 // read the readme for context
 
-require_once "../../../start.php";
+require_once "../../../../start.php";
 
-use DesignPatterns\StrategyPattern\DuckExample\Ducks\Duck;
-use DesignPatterns\StrategyPattern\DuckExample\Ducks\ModelDuck;
-use DesignPatterns\StrategyPattern\DuckExample\Ducks\RubberDuck;
-use DesignPatterns\StrategyPattern\DuckExample\FlyBehaviour\FlyNoWay;
-use DesignPatterns\StrategyPattern\DuckExample\QuackBehaviour\MuteQuack;
-use DesignPatterns\StrategyPattern\DuckExample\QuackBehaviour\Quack;
-use DesignPatterns\StrategyPattern\DuckExample\Ducks\MallardDuck;
-use DesignPatterns\StrategyPattern\DuckExample\FlyBehaviour\FlyWithWings;
-use DesignPatterns\StrategyPattern\DuckExample\QuackBehaviour\Squeak;
+use DesignPatterns\Behavioral\StrategyPattern\DuckExample\Ducks\Duck;
+use DesignPatterns\Behavioral\StrategyPattern\DuckExample\Ducks\ModelDuck;
+use DesignPatterns\Behavioral\StrategyPattern\DuckExample\Ducks\RubberDuck;
+use DesignPatterns\Behavioral\StrategyPattern\DuckExample\FlyBehaviour\FlyNoWay;
+use DesignPatterns\Behavioral\StrategyPattern\DuckExample\QuackBehaviour\MuteQuack;
+use DesignPatterns\Behavioral\StrategyPattern\DuckExample\QuackBehaviour\Quack;
+use DesignPatterns\Behavioral\StrategyPattern\DuckExample\Ducks\MallardDuck;
+use DesignPatterns\Behavioral\StrategyPattern\DuckExample\FlyBehaviour\FlyWithWings;
+use DesignPatterns\Behavioral\StrategyPattern\DuckExample\QuackBehaviour\Squeak;
 
 
 function showcase_duck(Duck $duck): void

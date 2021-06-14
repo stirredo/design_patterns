@@ -1,11 +1,11 @@
 <?php
 
 
-namespace DesignPatterns\StrategyPattern\DuckExample\Ducks;
+namespace DesignPatterns\Behavioral\StrategyPattern\DuckExample\Ducks;
 
 
-use DesignPatterns\StrategyPattern\DuckExample\FlyBehaviour\FlyBehaviour;
-use DesignPatterns\StrategyPattern\DuckExample\QuackBehaviour\QuackBehaviour;
+use DesignPatterns\Behavioral\StrategyPattern\DuckExample\FlyBehaviour\FlyBehaviour;
+use DesignPatterns\Behavioral\StrategyPattern\DuckExample\QuackBehaviour\QuackBehaviour;
 
 abstract class Duck
 {

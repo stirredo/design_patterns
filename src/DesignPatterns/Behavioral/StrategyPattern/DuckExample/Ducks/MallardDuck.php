@@ -1,7 +1,8 @@
 <?php
 
 
-namespace DesignPatterns\StrategyPattern\DuckExample\Ducks;
+namespace DesignPatterns\Behavioral\StrategyPattern\DuckExample\Ducks;
+
 
 
 class MallardDuck extends Duck

@@ -1,7 +1,7 @@
 <?php
 
 
-namespace DesignPatterns\StrategyPattern\DuckExample\QuackBehaviour;
+namespace DesignPatterns\Behavioral\StrategyPattern\DuckExample\QuackBehaviour;
 
 
 class MuteQuack implements QuackBehaviour

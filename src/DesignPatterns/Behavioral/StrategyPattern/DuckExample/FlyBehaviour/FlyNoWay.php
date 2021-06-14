@@ -1,7 +1,7 @@
 <?php
 
 
-namespace DesignPatterns\StrategyPattern\DuckExample\FlyBehaviour;
+namespace DesignPatterns\Behavioral\StrategyPattern\DuckExample\FlyBehaviour;
 
 
 class FlyNoWay implements FlyBehaviour
