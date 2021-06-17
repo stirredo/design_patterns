@@ -9,7 +9,7 @@ class Squeak implements QuackBehaviour
 
     public function quack()
     {
-        echo "Squeak Squeak!";
+        return "Squeak Squeak!";
 
     }
 }

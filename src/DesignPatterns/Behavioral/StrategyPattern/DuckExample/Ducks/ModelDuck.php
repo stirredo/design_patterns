@@ -9,7 +9,6 @@ class ModelDuck extends Duck
 
     public function display()
     {
-        echo "Looks like a model duck!";
-        echo "\n";
+        return "Looks like a model duck!";
     }
 }

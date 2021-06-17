@@ -25,19 +25,19 @@ abstract class Duck
 
     public function performQuack()
     {
-        echo $this->quackBehaviour->quack();
-        echo "\n";
+        return $this->quackBehaviour->quack();
+
     }
 
     public function performFly()
     {
-        echo $this->flyBehaviour->fly();
-        echo "\n";
+        return $this->flyBehaviour->fly();
+
     }
 
     public function swim()
     {
-        echo "All ducks swim, even the fake ones";
+        return "All ducks swim, even the fake ones";
     }
 
 }

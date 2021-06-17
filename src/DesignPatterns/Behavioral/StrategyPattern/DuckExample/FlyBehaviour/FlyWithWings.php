@@ -9,6 +9,6 @@ class FlyWithWings implements FlyBehaviour
 
     public function fly()
     {
-        print "I am flying with wings";
+        return "I am flying with wings";
     }
 }

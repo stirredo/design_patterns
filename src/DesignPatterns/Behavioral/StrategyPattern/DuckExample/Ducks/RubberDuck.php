@@ -9,7 +9,6 @@ class RubberDuck extends Duck
 
     public function display()
     {
-        echo "Looks like a rubber duck";
-        echo "\n";
+        return "Looks like a rubber duck";
     }
 }

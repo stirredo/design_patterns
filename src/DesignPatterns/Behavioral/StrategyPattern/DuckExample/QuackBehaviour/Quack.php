@@ -9,6 +9,6 @@ class Quack implements QuackBehaviour
 
     public function quack()
     {
-        echo "Quack!";
+        return "Quack!";
     }
 }

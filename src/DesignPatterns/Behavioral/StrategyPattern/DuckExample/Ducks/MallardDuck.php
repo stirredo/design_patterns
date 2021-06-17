@@ -9,7 +9,6 @@ class MallardDuck extends Duck
 {
     public function display()
     {
-        echo "Looks like a mallard duck!";
-        echo "\n";
+        return "Looks like a mallard duck!";
     }
 }
