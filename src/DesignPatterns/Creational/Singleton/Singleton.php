@@ -15,7 +15,7 @@ final class Singleton
     public static function getInstance()
     {
         if (static::$instance === null) {
-            static::$instance = new Singleton();
+            static::$instance = new static();
         }
         return static::$instance;
 
