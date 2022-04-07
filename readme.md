@@ -33,3 +33,4 @@ This is a collection of design patterns for reference on how to implement a patt
    5. [Fluent Interface](https://github.com/stirredo/design_patterns/tree/master/src/DesignPatterns/Structural/FluentInterface)
    6. [Flyweight Pattern](https://github.com/stirredo/design_patterns/tree/master/src/DesignPatterns/Structural/Flyweight)
    7. [Proxy Pattern](https://github.com/stirredo/design_patterns/tree/master/src/DesignPatterns/Structural/Proxy)
+   8. [Decorator Pattern](https://github.com/stirredo/design_patterns/tree/master/src/DesignPatterns/Structural/Decorator/CoffeeMachineExample)
